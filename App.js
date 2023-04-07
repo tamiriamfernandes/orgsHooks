@@ -3,7 +3,7 @@ import { SafeAreaView, Text } from 'react-native';
 import Home from './src/pages/Home';
 
 function App() {
-  return <SafeAreaView><Home /></SafeAreaView>
+  return <SafeAreaView style={{flex:1}}><Home /></SafeAreaView>
 }
 
 export default App;
